@@ -41,7 +41,7 @@ const skins: SkinItem[] = [
     id: '1',
     name: '★ Karambit | Fade',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1621934292097-0f29f6f4b96e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 48500 },
@@ -52,7 +52,7 @@ const skins: SkinItem[] = [
     id: '2',
     name: '★ Butterfly Knife | Doppler',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 38900 },
@@ -64,7 +64,7 @@ const skins: SkinItem[] = [
     id: '3',
     name: '★ M9 Bayonet | Gamma Doppler',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 28700 },
@@ -75,7 +75,7 @@ const skins: SkinItem[] = [
     id: '4',
     name: '★ Bayonet | Tiger Tooth',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1621934292097-0f29f6f4b96e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1567696153798-96987ebac203?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 18200 },
@@ -86,7 +86,7 @@ const skins: SkinItem[] = [
     id: '5',
     name: '★ Flip Knife | Marble Fade',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 15900 },
@@ -97,7 +97,7 @@ const skins: SkinItem[] = [
     id: '6',
     name: '★ Gut Knife | Autotronic',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1621934292097-0f29f6f4b96e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1542261777448-a47e80e5f9a4?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 9500 },
@@ -109,7 +109,7 @@ const skins: SkinItem[] = [
     id: '7',
     name: '★ Stiletto Knife | Case Hardened',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80&sat=-50',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 12300 },
@@ -122,7 +122,7 @@ const skins: SkinItem[] = [
     id: '8',
     name: '★ Ursus Knife | Slaughter',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1621934292097-0f29f6f4b96e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80&hue=340',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 11200 },
@@ -133,7 +133,7 @@ const skins: SkinItem[] = [
     id: '9',
     name: '★ Sport Gloves | Pandora\'s Box',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 47500 },
@@ -145,7 +145,7 @@ const skins: SkinItem[] = [
     id: '10',
     name: '★ Driver Gloves | Crimson Weave',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 35900 },
@@ -157,7 +157,7 @@ const skins: SkinItem[] = [
     id: '11',
     name: '★ Specialist Gloves | Fade',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1614165936126-a1c3bc6b0b70?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 28700 },
@@ -168,7 +168,7 @@ const skins: SkinItem[] = [
     id: '12',
     name: '★ Hand Wraps | Slaughter',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1585932490656-bae4ce14f357?w=800&h=600&fit=crop&q=80',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 19800 },
@@ -180,7 +180,7 @@ const skins: SkinItem[] = [
     id: '13',
     name: '★ Moto Gloves | Boom!',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1614165936126-a1c3bc6b0b70?w=800&h=600&fit=crop&q=80&hue=30',
     rarity: 'Classified',
     wearOptions: [
       { condition: 'Factory New', price: 14500 },
@@ -192,7 +192,7 @@ const skins: SkinItem[] = [
     id: '14',
     name: '★ Specialist Gloves | Tiger Strike',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?w=800&h=600&fit=crop&q=80&hue=30',
     rarity: 'Classified',
     wearOptions: [
       { condition: 'Factory New', price: 9200 },
@@ -205,7 +205,7 @@ const skins: SkinItem[] = [
     id: '15',
     name: '★ Bloodhound Gloves | Snakebite',
     type: 'gloves',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&h=600&fit=crop&q=80&hue=80',
     rarity: 'Classified',
     wearOptions: [
       { condition: 'Minimal Wear', price: 7200 },
