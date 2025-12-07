@@ -41,7 +41,7 @@ const skins: SkinItem[] = [
     id: '1',
     name: '★ Karambit | Fade',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80&auto=format',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 48500 },
@@ -52,7 +52,7 @@ const skins: SkinItem[] = [
     id: '2',
     name: '★ Butterfly Knife | Doppler',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80&auto=format',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 38900 },
@@ -64,7 +64,7 @@ const skins: SkinItem[] = [
     id: '3',
     name: '★ M9 Bayonet | Gamma Doppler',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=600&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=600&fit=crop&q=80&auto=format',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 28700 },
@@ -75,7 +75,7 @@ const skins: SkinItem[] = [
     id: '4',
     name: '★ Bayonet | Tiger Tooth',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1567696153798-96987ebac203?w=800&h=600&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1567696153798-96987ebac203?w=800&h=600&fit=crop&q=80&auto=format',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 18200 },
@@ -86,7 +86,7 @@ const skins: SkinItem[] = [
     id: '5',
     name: '★ Flip Knife | Marble Fade',
     type: 'knife',
-    image: 'https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=800&h=600&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=800&h=600&fit=crop&q=80&auto=format',
     rarity: 'Covert',
     wearOptions: [
       { condition: 'Factory New', price: 15900 },
@@ -211,6 +211,209 @@ const skins: SkinItem[] = [
       { condition: 'Minimal Wear', price: 7200 },
       { condition: 'Field-Tested', price: 6100 },
       { condition: 'Well-Worn', price: 5300 },
+    ],
+  },
+  {
+    id: '16',
+    name: '★ Shadow Daggers | Rust Coat',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80&sat=-30',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Well-Worn', price: 5200 },
+      { condition: 'Battle-Scarred', price: 5000 },
+    ],
+  },
+  {
+    id: '17',
+    name: '★ Falchion Knife | Forest DDPAT',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1567696153798-96987ebac203?w=800&h=600&fit=crop&q=80&hue=100',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Field-Tested', price: 6800 },
+      { condition: 'Well-Worn', price: 5900 },
+      { condition: 'Battle-Scarred', price: 5400 },
+    ],
+  },
+  {
+    id: '18',
+    name: '★ Gut Knife | Scorched',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1542261777448-a47e80e5f9a4?w=800&h=600&fit=crop&q=80&sat=-50&brightness=-10',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 7100 },
+      { condition: 'Field-Tested', price: 6300 },
+      { condition: 'Well-Worn', price: 5700 },
+    ],
+  },
+  {
+    id: '19',
+    name: '★ Navaja Knife | Blue Steel',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80&hue=210',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 9200 },
+      { condition: 'Minimal Wear', price: 8100 },
+      { condition: 'Field-Tested', price: 7300 },
+    ],
+  },
+  {
+    id: '20',
+    name: '★ Huntsman Knife | Safari Mesh',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=600&fit=crop&q=80&hue=80',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 8500 },
+      { condition: 'Field-Tested', price: 7200 },
+      { condition: 'Well-Worn', price: 6400 },
+    ],
+  },
+  {
+    id: '21',
+    name: '★ Bowie Knife | Boreal Forest',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1612404730960-5c71577fca11?w=800&h=600&fit=crop&q=80&hue=130',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 9800 },
+      { condition: 'Minimal Wear', price: 8400 },
+      { condition: 'Field-Tested', price: 7100 },
+    ],
+  },
+  {
+    id: '22',
+    name: '★ Shadow Daggers | Damascus Steel',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=800&h=600&fit=crop&q=80&contrast=20',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 9500 },
+      { condition: 'Minimal Wear', price: 8300 },
+      { condition: 'Field-Tested', price: 7500 },
+    ],
+  },
+  {
+    id: '23',
+    name: '★ Falchion Knife | Night',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1567696153798-96987ebac203?w=800&h=600&fit=crop&q=80&brightness=-30',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 7800 },
+      { condition: 'Field-Tested', price: 6700 },
+      { condition: 'Well-Worn', price: 5900 },
+    ],
+  },
+  {
+    id: '24',
+    name: '★ Navaja Knife | Stained',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=800&h=600&fit=crop&q=80&sat=-40',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 6900 },
+      { condition: 'Field-Tested', price: 5800 },
+      { condition: 'Well-Worn', price: 5200 },
+    ],
+  },
+  {
+    id: '25',
+    name: '★ Gut Knife | Urban Masked',
+    type: 'knife',
+    image: 'https://images.unsplash.com/photo-1542261777448-a47e80e5f9a4?w=800&h=600&fit=crop&q=80&hue=200',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 7400 },
+      { condition: 'Field-Tested', price: 6200 },
+      { condition: 'Well-Worn', price: 5500 },
+    ],
+  },
+  {
+    id: '26',
+    name: '★ Hydra Gloves | Emerald',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&h=600&fit=crop&q=80&hue=120',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 9700 },
+      { condition: 'Minimal Wear', price: 8300 },
+      { condition: 'Field-Tested', price: 7100 },
+    ],
+  },
+  {
+    id: '27',
+    name: '★ Hydra Gloves | Rattler',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1614165936126-a1c3bc6b0b70?w=800&h=600&fit=crop&q=80&hue=60',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 7800 },
+      { condition: 'Field-Tested', price: 6500 },
+      { condition: 'Well-Worn', price: 5700 },
+    ],
+  },
+  {
+    id: '28',
+    name: '★ Moto Gloves | Transport',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?w=800&h=600&fit=crop&q=80&hue=200',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 8900 },
+      { condition: 'Field-Tested', price: 7400 },
+      { condition: 'Well-Worn', price: 6200 },
+    ],
+  },
+  {
+    id: '29',
+    name: '★ Broken Fang Gloves | Yellow-banded',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1585932490656-bae4ce14f357?w=800&h=600&fit=crop&q=80&hue=45',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 9100 },
+      { condition: 'Minimal Wear', price: 7900 },
+      { condition: 'Field-Tested', price: 6800 },
+    ],
+  },
+  {
+    id: '30',
+    name: '★ Driver Gloves | Racing Green',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&h=600&fit=crop&q=80&hue=140',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 7200 },
+      { condition: 'Field-Tested', price: 6000 },
+      { condition: 'Well-Worn', price: 5300 },
+    ],
+  },
+  {
+    id: '31',
+    name: '★ Specialist Gloves | Forest DDPAT',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1614165936126-a1c3bc6b0b70?w=800&h=600&fit=crop&q=80&hue=100',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Minimal Wear', price: 6800 },
+      { condition: 'Field-Tested', price: 5700 },
+      { condition: 'Well-Worn', price: 5100 },
+    ],
+  },
+  {
+    id: '32',
+    name: '★ Bloodhound Gloves | Bronzed',
+    type: 'gloves',
+    image: 'https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?w=800&h=600&fit=crop&q=80&hue=25',
+    rarity: 'Restricted',
+    wearOptions: [
+      { condition: 'Factory New', price: 8700 },
+      { condition: 'Minimal Wear', price: 7400 },
+      { condition: 'Field-Tested', price: 6300 },
     ],
   },
 ];
@@ -504,17 +707,17 @@ const Index = () => {
               />
             </div>
 
-            <div className="p-4 rounded-lg bg-muted/50 border border-border space-y-2">
+            <div className="p-4 rounded-lg bg-muted/50 border border-border space-y-3">
               <h4 className="font-semibold">Реквизиты для оплаты:</h4>
-              <div className="text-sm space-y-1">
-                <p className="flex justify-between">
-                  <span className="text-muted-foreground">СБП номер:</span>
-                  <span className="font-mono">79822141678</span>
-                </p>
-                <p className="flex justify-between">
-                  <span className="text-muted-foreground">Карта:</span>
-                  <span className="font-mono">2200 1536 0504 2952</span>
-                </p>
+              <div className="text-sm space-y-2">
+                <div>
+                  <p className="text-muted-foreground mb-1">СБП по номеру телефона:</p>
+                  <p className="font-mono text-base font-semibold text-primary">+7 982 214 16 78</p>
+                </div>
+                <div>
+                  <p className="text-muted-foreground mb-1">Карта:</p>
+                  <p className="font-mono text-base font-semibold text-primary">2200 1536 0504 2952</p>
+                </div>
               </div>
             </div>
 
